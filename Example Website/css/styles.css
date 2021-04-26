@@ -1,0 +1,76 @@
+.frontpage{
+    position: relative;
+    height:100%;
+    width:100%
+}
+.frontpage-text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
+    color: #fff;
+    width: 60%; /* Set the width of the positioned div */
+}
+@media (max-width:1200px) {
+    .frontpage-text{
+        top:8%;
+        width:80%;
+    }
+}
+.product-info{
+    margin:3% 0;
+    text-align: center;
+}
+.promises{
+    padding:5%;
+}
+.icon{
+    font-size:3rem;
+}
+.carousel{
+    background-color: #d8e3e7;
+    padding:10% 0;
+    text-align: center;
+}
+.carousel-inner{
+    padding-left:15%;
+    width:85%;
+}
+.reviewers{
+    border-radius:100%;
+    margin:20px;
+    width:10%;
+}
+.contact-form{
+    margin: auto;
+    padding: 5% 0;
+    text-align: center;
+    width: 70%;
+}
+.form-content{
+    margin-top:3%;
+}
+.send{
+    margin-top: 5%;
+    float:right;
+}
+.container-form{
+    padding-bottom:10%;
+}
+.footer{
+    background-color: #d8e3e7;
+    padding:1% 0;
+    text-align: center;
+    width:100%;
+}
+.footer-icon{
+    color:black;
+    margin: 0 .5%;
+    text-decoration: none;
+}
+.copy{
+    margin-top:1%;
+}
