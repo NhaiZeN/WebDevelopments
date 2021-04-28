@@ -10,11 +10,11 @@ h1, h2{
 }
 .content-center{
     margin:auto;
-    width:960px;
+    width:70%;
 }
 .form-center{
     margin:auto;
-    width:720px;
+    width:60%;
 }
 .row{
     margin-top:20px;
